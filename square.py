@@ -31,8 +31,8 @@ class Square:
             float or int: return area of the square if the square is valid, 0 otherwise
         """
         if self.is_valid() > 0:
-            return float
-        return self.square_side * 4
+            return 'adasaf'
+        return float
         
     
     def perimeter(self):
