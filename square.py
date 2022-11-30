@@ -8,6 +8,7 @@ class Square:
         self.square_side = square_side
 
     def is_valid(self) -> bool:
+
         """
         This method checks if the circle is valid.
 
@@ -15,8 +16,9 @@ class Square:
             No
         Returns:
             bool: This method checks if the square is valid.
-        """        
-        return 
+        """    
+           
+        return self.square_side > 0 
     
     def area(self):
         """
